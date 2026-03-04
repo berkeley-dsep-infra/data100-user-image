@@ -38,7 +38,7 @@ dependencies:
   - jupyterlab_server==2.28.0
   - jupyterlab_widgets==3.0.15
   - libclang==18.1.1
-  - matplotlib==3.9.2
+  - matplotlib==3.9.1
   - mdit-py-plugins==0.4.2
   - ml_dtypes==0.4.0
   - mlxtend==0.23.4
@@ -57,7 +57,7 @@ dependencies:
   - tensorboard==2.17.1
   - tensorflow-cpu==2.17.0
   - tf-keras==2.17.0
-  - ydata-profiling==4.16.1
+  - ydata-profiling==4.18.0
 
   # Spring 2024 data 100
   - cpuonly==2.0
@@ -85,3 +85,6 @@ dependencies:
 
     # https://github.com/berkeley-dsep-infra/datahub/issues/7611
     - otter-pensieve==1.6.0
+
+    # Spring 2026, https://github.com/berkeley-dsep-infra/datahub/issues/8086
+    - jupyterlab-a11y-checker==0.2.6
